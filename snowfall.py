@@ -1,4 +1,6 @@
-import pygame, random
+import pygame, random   #install pygame btw 
+                        #sudo apt-get install python3-pygame (for linux)
+                        #pip install pygame (for windows)
 
 pygame.init()
 
