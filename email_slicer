@@ -1,0 +1,14 @@
+import random
+
+email = input("Enter your email address: ")
+
+username = email.split("@")[0]
+random_num = random.randint(0, 9999)
+code = f"{username}*{str(random_num)}"
+
+with open("_______", "a") as file:   
+    file.write(username + "\n")
+    
+with open("_______", "a") as file:
+    file.write(code + "\n")
+      
